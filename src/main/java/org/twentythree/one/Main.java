@@ -10,33 +10,19 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         List<String> input = readFile("2023/1/input");
-        System.out.println("Solution for part one is:" + calculateFromDecimal(input));
-        System.out.println("Solution for part two is:" + calculateFromStringDecimal(input));
+        System.out.println("Solution for part one is:" + calculate(input, "(\\d)"));
+        System.out.println("Solution for part two is:" + calculate(input, "(one|two|three|four|five|six|seven|eight|nine|\\d)"));
     }
 
-    private static int calculateFromStringDecimal(List<String> list) {
+    private static int calculate(List<String> list, String match) {
         int sum = 0;
 
         for(String item: list) {
 
-            String[] array = match(item,"(one|two|three|four|five|six|seven|eight|nine|\\d)");
+            String[] array = match(item, match);
 
             String first = parseToDecimal(array[0]);
             String last = array.length > 1 ? parseToDecimal(array[array.length - 1]) : first;
-
-            sum += Integer.parseInt(first + last);
-        }
-        return sum;
-    }
-
-    private static int calculateFromDecimal(List<String> list) {
-        int sum = 0;
-
-        for(String item : list) {
-            String[] array = match(item, "(\\d)");
-
-            String first = array[0];
-            String last = array.length > 1 ? array[array.length - 1] : first;
 
             sum += Integer.parseInt(first + last);
         }

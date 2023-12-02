@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665941ab-dcde-4b8f-8e65-b876f1fef0bc" name="Changes" comment="add first day">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/twentythree/one/Numbers.java" afterDir="false" />
+    <list default="true" id="665941ab-dcde-4b8f-8e65-b876f1fef0bc" name="Changes" comment="add first day part 2">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/twentythree/one/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/twentythree/one/Main.java" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701507011184</updated>
-      <workItem from="1701507012470" duration="13523000" />
+      <workItem from="1701507012470" duration="14273000" />
     </task>
     <task id="LOCAL-00001" summary="add first day">
       <created>1701511799166</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701511799166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add first day part 2">
+      <created>1701545849913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701545849913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add first day" />
-    <option name="LAST_COMMIT_MESSAGE" value="add first day" />
+    <MESSAGE value="add first day part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add first day part 2" />
   </component>
 </project>
